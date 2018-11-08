@@ -14,3 +14,6 @@
 Route::get('/', function () {
     return view('teste');
 });
+Route::get('/bd', function () {
+    return view('welcome');
+});
